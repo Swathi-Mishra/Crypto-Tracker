@@ -12,9 +12,6 @@ This project simulates real-time price updates for cryptocurrencies using React 
 - Redux Toolkit
 - JavaScript
 
-## 📷 Screenshot
-![screenshot](./public/chart.svg)
-
 ## 🔧 Setup Instructions
 1. Clone repo
 2. `npm install`
