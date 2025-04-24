@@ -4,6 +4,11 @@ A responsive web app built with **React + Redux Toolkit** that fetches and displ
 
 ---
 
+## 📹 Demo
+
+[![Watch the demo](./public/cryptoimage.jpg)](https://www.loom.com/share/f2e583f7ef594ec18869b407284e4fe3)
+
+
 ## 🚀 Features
 
 - Real-time crypto price updates
