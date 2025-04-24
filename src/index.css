@@ -1,0 +1,126 @@
+/* src/index.css */
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Main container (optional) */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* General margin for sections */
+  section {
+    margin-bottom: 30px;
+  }
+  
+  /* Header styles */
+  header {
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    border-collapse: separate; /* Use separate borders between columns */
+    border-spacing: 0 10px; /* Add space between rows */
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 15px 20px; /* Add padding between the content and cell borders */
+    text-align: left;
+    border: 1px solid #ddd; /* Border between columns */
+    white-space: nowrap; /* Prevent text from wrapping */
+  }
+  
+  th {
+    background-color: #007bff;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  td {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* For small devices (responsive) */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    .card {
+      padding: 15px;
+    }
+  
+    button {
+      width: 100%;
+    }
+  
+    th, td {
+      padding: 12px;
+      font-size: 0.9rem;
+    }
+  }
+  
